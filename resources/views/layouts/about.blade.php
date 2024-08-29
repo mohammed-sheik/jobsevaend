@@ -10,15 +10,12 @@
             <img src="/img/jobs.png" class="h-24 py-4" alt="audiostory app maker">
 
             <h1 class="font-extrabold text-[36px] md:text-[50px] leading-10 md:leading-normal">
-                #1 App Builder
-                <br>
-                for audiobooks and podcasts
+                #1 Job Searching App.
+                
             </h1>
 
             <p class="py-8 text-xl md:text-2xl font-bold text-gray-600">
-                Studio makes it easy to create high-quality audio apps
-                <br>
-                right on your phone
+            At JobSeva, we are more than just a job portal; we are your dedicated partner on the path to professional success. Whether you're a seasoned professional seeking new challenges or a recent graduate embarking on your career journey, our comprehensive suite of services is designed to empower you at every step.
             </p>
 
 

@@ -88,7 +88,8 @@
                 </div>
                 <div class="card h-fit max-w-6xl p-5 md:p-12" id="form">
                     <h2 class="mb-4 text-2xl font-bold dark:text-white">Ready to Get Started?</h2>
-                    <form id="contactForm">
+                    <form action="{{route('contact.submit')}}" method="POST">
+                    @csrf
                         <div class="mb-6">
                             <div class="mx-0 mb-1 sm:mb-4">
                                 <div class="mx-0 mb-1 sm:mb-4">
@@ -99,7 +100,7 @@
                                 </div>
                             </div>
                             <div class="mx-0 mb-1 sm:mb-4">
-                                <label for="textarea" class="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" name="textarea" cols="30" rows="5" placeholder="Write your message..." class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"></textarea>
+                                <label for="textarea" class="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" name="message" cols="30" rows="5" placeholder="Write your message..." class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"></textarea>
                             </div>
                         </div>
                         <div class="text-center">

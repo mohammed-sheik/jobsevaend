@@ -27,8 +27,8 @@ Route::get('/jobseeker', function () {
     return view('layouts.jobseeker');
 });
 
-Route::get('/contacts', function () {
-    return view('layouts.contacts');
+Route::get('/contact', function () {
+    return view('layouts.contact');
 });
 
 Route::get('/about', function () {
@@ -46,6 +46,9 @@ Route::get('/privacy', function () {
 Route::get('/refund', function () {
     return view('layouts.refund');
 });
+
+Route::post('/contact/submit', [ContactController::class, 'submit'])->name('contact.submit');
+Route::get('/contact/success', [ContactController::class, 'success'])->name('contact.success');
 
 
 

@@ -60,7 +60,7 @@
                                     class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-blue-700 dark:hover:bg-blue-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">About Us</a>
                             </li>
                             <li>
-                                <a href="/contacts"
+                                <a href="/contact"
                                     class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-blue-700 dark:hover:bg-blue-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
                             </li>
                         </ul>
@@ -152,7 +152,7 @@
                                             href="/about">About</a></li>
                                     <li class="mt-[15px]"><a
                                             class="text-deutziawhite hover:underline-offset-4 font-inter text-[15px] font-medium "
-                                            href="/contacts">Contact</a></li>
+                                            href="/contact">Contact</a></li>
                                     <li class="mt-[15px]"><a
                                             class="text-deutziawhite hover:underline-offset-4font-inter text-[15px] font-medium"
                                             href="/refund">Refund Policy</a></li>
